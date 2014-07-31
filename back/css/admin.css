@@ -5119,7 +5119,6 @@ button.close {
   left: 50%;
   margin-left: -30px;
   top: 50%;
-  z-index: -1;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
