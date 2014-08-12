@@ -206,6 +206,9 @@
         <li class="divider"></li>
         <li><a href="/admin/sys/template"><i class="glyphicon glyphicon-hdd"></i> <?= t('Templates'); ?></a>
         </li>
+		<li class="divider"></li>
+        <li><a href="/admin/customfield"><i class="glyphicon glyphicon-hdd"></i> <?= t('Custom field'); ?></a>
+        </li>
     </ul>
 </li>
 <li class="dropdown">
