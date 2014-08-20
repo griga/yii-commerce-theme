@@ -103,6 +103,11 @@
                             'caret' => '<i class="sub-menu-expander"></i>',
                             'items' => [
                                 [
+                                    'url' => 'menu',
+                                    'label' => '<i class="glyphicon glyphicon-align-justify"></i> ' . t('Menu'),
+                                    'active' => app()->controller->id == 'module' && app()->controller->module->id == 'menu',
+                                ],
+                                [
                                     'url' => 'content/page',
                                     'label' => '<i class="glyphicon glyphicon-align-justify"></i> ' . t('Static pages'),
                                     'active' => app()->controller->id == 'page' && app()->controller->module->id == 'content',

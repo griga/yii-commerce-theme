@@ -5381,21 +5381,21 @@ input.form-control:-webkit-autofill:focus, .table tr.filters input:-webkit-autof
   margin-right: 40px;
   display: inline-block; }
 
-#categories-list, #categories-list ol {
+#sortable-models-list, #sortable-models-list ol {
   list-style: none;
   margin: 0 0 0 20px;
   padding: 0; }
-  #categories-list .placeholder, #categories-list ol .placeholder {
+  #sortable-models-list .placeholder, #sortable-models-list ol .placeholder {
     background: rgba(127, 127, 127, 0.3); }
-  #categories-list .category-item, #categories-list ol .category-item {
+  #sortable-models-list .sortable-model-item, #sortable-models-list ol .sortable-model-item {
     border-bottom: 1px solid rgba(127, 127, 127, 0.2);
     margin-bottom: 3px;
     -webkit-transition: background 0.1s ease-in;
     transition: background 0.1s ease-in; }
-    #categories-list .category-item:hover, #categories-list ol .category-item:hover {
+    #sortable-models-list .sortable-model-item:hover, #sortable-models-list ol .sortable-model-item:hover {
       cursor: move;
       background: rgba(127, 127, 127, 0.1); }
-    #categories-list .category-item .category-name, #categories-list ol .category-item .category-name {
+    #sortable-models-list .sortable-model-item .sortable-models-name, #sortable-models-list ol .sortable-model-item .sortable-models-name {
       font-size: 14px;
       font-weight: bold;
       margin: 0 0px; }

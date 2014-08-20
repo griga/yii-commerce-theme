@@ -82,14 +82,14 @@ input.form-control:-webkit-autofill:focus {
 	}
 }
 
-#categories-list, #categories-list ol{
+#sortable-models-list, #sortable-models-list ol{
 	list-style: none;
 	margin: 0 0 0 20px ;
 	padding: 0;
 	.placeholder{
 		background: rgba(127,127,127,.3);
 	}
-	.category-item{
+	.sortable-model-item{
 		border-bottom: 1px solid rgba(127,127,127,.2);
 		margin-bottom: 3px;
 		@include transition(background .1s ease-in);
@@ -97,7 +97,7 @@ input.form-control:-webkit-autofill:focus {
 			cursor: move;
 			background: rgba(127,127,127,.1);
 		}
-		.category-name{
+		.sortable-models-name{
 			font-size: 14px;
 			font-weight: bold;
 			margin: 0 0px;
