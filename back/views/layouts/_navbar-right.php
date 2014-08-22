@@ -148,7 +148,7 @@
         <ul class="dropdown-menu dropdown-alerts">
             <?php foreach (Notification::unread() as $notification): ?>
                 <li>
-                    <a href="#">
+                    <a href="/admin/notification/list/view/<?= $notification->id ?>">
                         <div>
                             <i class="fa fa-comment fa-fw"><?= $notification->getTypeName() ?></i>
 
